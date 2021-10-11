@@ -1,12 +1,17 @@
+#wrap{
+	margin : 0 auto;
+}
+
 
 .div-top {
-	top : 50px;
+	top : 0px;
 	width: 100%;
 	background-color: black;
 	color: white;
 	display: flex;
 	position : fixed;
 	z-index : 1111;
+	margin : 0 auto;
 }
 
 .div-top div h1 a {
@@ -68,7 +73,7 @@
 	color:white
 }
 .content {
-	margin-top: 120px;
+	margin-top: 80px;
 }
 
 
