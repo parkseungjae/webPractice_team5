@@ -200,6 +200,7 @@
 	width: 80%;
 	height: 800px;
 	background-color: lightgray;
+	float: right;
 }
 
 #product-list03 h3 {
@@ -215,6 +216,13 @@
 	width: 500px;
 }
 
+#more a {
+	text-decoration: none;
+	color: white;
+	background-color: gray;
+	padding: 0px 10px;
+}
+
 .footer {
 	float: right;
 	width: 80%;
@@ -225,7 +233,15 @@
 #alert {
 	background-color: white;
 	margin-left: 20px;
-	margin-bottom: 20px; border : 1px solid red;
+	margin-bottom: 20px;
+	border: 1px solid red;
 	color: red;
 	border: 1px solid red
+}
+
+#headline {
+	color: black;
+	border-bottom: 2px solid gray;
+	border-top: 2px solid gray;
+	padding: 10px;
 }
