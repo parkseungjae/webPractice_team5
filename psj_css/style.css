@@ -1,5 +1,5 @@
 #wrap {
-	background-color : black;
+	background-color: black;
 	margin: 0 auto;
 }
 
@@ -15,13 +15,15 @@
 }
 
 .div-top div h1 a {
-	margin-left: 20px; text-decoration : none;
+	margin-left: 20px;
+	text-decoration: none;
 	color: white;
 	text-decoration: none;
 }
 
 .div-top div input {
-	background-color: white; margin-left : 15px;
+	background-color: white;
+	margin-left: 15px;
 	margin-top: 30px;
 	padding: 5px 10px;
 	margin-left: 15px;
@@ -33,7 +35,8 @@
 }
 
 .div-second nav ul {
-	margin: 0 3px; padding : 10px;
+	margin: 0 3px;
+	padding: 10px;
 	display: flex;
 	justify-content: flex-end;
 	list-style: none;
@@ -68,7 +71,8 @@
 }
 
 .div-member nav ul {
-	margin: 8px 0px; display : flex;
+	margin: 8px 0px;
+	display: flex;
 	list-style: none;
 	display: flex;
 }
@@ -140,7 +144,7 @@
 }
 
 .LsideMenu div a {
-	padding : 10px;
+	padding: 10px;
 	width: 100%;
 	text-decoration: none;
 }
@@ -151,15 +155,77 @@
 	background-color: lightgray;
 }
 
-.product-list {
+#product-list01 {
 	float: right;
 	width: 80%;
-	height: 2000px;
+	height: 800px;
 	background-color: lightgray;
 }
 
-.product-list img {
-	margin: 50px; width : 500px;
+#product-list01 h3 {
+	margin: 10px;
+	font-size: 40px;
+}
+
+#product-list01 img {
+	border-radius: 5px;
+	margin: 50px;
+	width: 500px;
 	height: 500px;
 	width: 500px;
+}
+
+#product-list02 {
+	float: right;
+	width: 80%;
+	height: 800px;
+	background-color: lightgray;
+}
+
+#product-list02 h3 {
+	margin: 10px;
+	font-size: 40px;
+}
+
+#product-list02 img {
+	border-radius: 5px;
+	margin: 50px;
+	width: 500px;
+	height: 500px;
+	width: 500px;
+}
+
+#product-list03 {
+	float: right;
+	width: 80%;
+	height: 800px;
+	background-color: lightgray;
+}
+
+#product-list03 h3 {
+	margin: 10px;
+	font-size: 40px;
+}
+
+#product-list03 img {
+	border-radius: 5px;
+	margin: 50px;
+	width: 500px;
+	height: 500px;
+	width: 500px;
+}
+
+.footer {
+	float: right;
+	width: 80%;
+	height: 100px;
+	background-color: gray;
+}
+
+#alert {
+	background-color: white;
+	margin-left: 20px;
+	margin-bottom: 20px; border : 1px solid red;
+	color: red;
+	border: 1px solid red
 }
