@@ -1,44 +1,44 @@
-#wrap{
-	margin : 0 auto;
+#wrap {
+	background-color : black;
+	margin: 0 auto;
 }
 
-
 .div-top {
-	top : 0px;
+	top: 0px;
 	width: 100%;
 	background-color: black;
 	color: white;
 	display: flex;
-	position : fixed;
-	z-index : 1111;
-	margin : 0 auto;
+	position: fixed;
+	z-index: 1111;
+	margin: 0 auto;
 }
 
 .div-top div h1 a {
-	margin-left:20px;
-	text-decoration: none;
+	margin-left: 20px; text-decoration : none;
 	color: white;
+	text-decoration: none;
 }
 
 .div-top div input {
-	background-color: white;
-	margin-left: 15px;
+	background-color: white; margin-left : 15px;
 	margin-top: 30px;
 	padding: 5px 10px;
+	margin-left: 15px;
 }
 
 .div-second {
 	background-color: black;
-	position : relative;
+	position: relative;
 }
 
 .div-second nav ul {
-	margin : 0 3px;
-	padding : 10px;
+	margin: 0 3px; padding : 10px;
 	display: flex;
 	justify-content: flex-end;
 	list-style: none;
 	z-index: 11111;
+	padding: 10px;
 }
 
 .div-second nav ul li {
@@ -50,54 +50,116 @@
 	text-decoration: none;
 	color: white;
 }
-.div-second nav ul li a:hover{
-	color : orange;
+
+.div-second nav ul li a:hover {
+	color: orange;
 	padding-bottom: 2px;
-	border-bottom : 1px solid orange;
-	transition : all 0.5s
+	border-bottom: 1px solid orange;
+	transition: all 0.5s
 }
 
-.div-member{
-	width : 100%;
-	height : 40px;
-	background-color : gray;
-	z-index : 111;
-	display : flex;
+.div-member {
+	width: 100%;
+	height: 40px;
+	background-color: gray;
+	z-index: 111;
+	display: flex;
 	justify-content: flex-start;
 }
 
-.div-member nav ul{
-	margin : 8px 0px;
-	display : flex;
+.div-member nav ul {
+	margin: 8px 0px; display : flex;
 	list-style: none;
+	display: flex;
 }
+
 .div-member nav ul li a {
-	color:black;
+	color: black;
 	text-align: center;
-	margin : 0px 13px;
+	margin: 0px 13px;
 }
+
 .div-member nav ul li a:hover {
 	padding-bottom: 2px;
-	border-bottom : 1px solid black;
-	transition : all 0.5s;
+	border-bottom: 1px solid black;
+	transition: all 0.5s;
 }
-.div-member nav ul li input{
-	border : 1px solid black;
-	width : 100px;
-	
+
+.div-member nav ul li input {
+	border: 1px solid black;
+	width: 100px;
 }
 
 .content {
 	margin-top: 80px;
 }
-.products{
+
+.products {
 	background-color: white;
-	
-}
-.products img{
-	width : 300px;
-	height : 300px;
 }
 
+.products img {
+	width: 300px;
+	height: 300px;
+}
 
+.LsideMenu {
+	margin-left: 5px;
+	background-color: white;
+	width: 300px;
+	height: 2000px;
+	z-index: -1;
+	position: fixed;
+	border-top: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+}
 
+.LsideMenu div table td {
+	align: center;
+}
+
+.LsideMenu div table td input {
+	align: center;
+	width: 150px;
+}
+
+.LsideMenu div table td a {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+.LsideMenu div label {
+	font-size: 4px;
+	color: gray;
+}
+
+.LsideMenu div b {
+	font-size: 8px;
+	color: gray;
+}
+
+.LsideMenu div a {
+	padding : 10px;
+	width: 100%;
+	text-decoration: none;
+}
+
+.LsideMenu div a:hover {
+	width: 300pxS;
+	text-decoration: none;
+	background-color: lightgray;
+}
+
+.product-list {
+	float: right;
+	width: 80%;
+	height: 2000px;
+	background-color: lightgray;
+}
+
+.product-list img {
+	margin: 50px; width : 500px;
+	height: 500px;
+	width: 500px;
+}
