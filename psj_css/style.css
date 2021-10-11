@@ -1,0 +1,247 @@
+#wrap {
+	background-color: white;
+	margin: 0 auto;
+}
+
+.div-top {
+	top: 0px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	display: flex;
+	position: fixed;
+	z-index: 1111;
+	margin: 0 auto;
+}
+
+.div-top div h1 a {
+	margin-left: 20px;
+	text-decoration: none;
+	color: white;
+	text-decoration: none;
+}
+
+.div-top div input {
+	background-color: white;
+	margin-left: 15px;
+	margin-top: 30px;
+	padding: 5px 10px;
+	margin-left: 15px;
+}
+
+.div-second {
+	background-color: black;
+	position: relative;
+}
+
+.div-second nav ul {
+	margin: 0 3px;
+	padding: 10px;
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	z-index: 11111;
+	padding: 10px;
+}
+
+.div-second nav ul li {
+	margin: 0 3px;
+	padding: 5px;
+}
+
+.div-second nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.div-second nav ul li a:hover {
+	color: orange;
+	padding-bottom: 2px;
+	border-bottom: 1px solid orange;
+	transition: all 0.5s
+}
+
+.div-member {
+	width: 100%;
+	height: 40px;
+	background-color: gray;
+	z-index: 111;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.div-member nav ul {
+	margin: 8px 0px;
+	display: flex;
+	list-style: none;
+	display: flex;
+}
+
+.div-member nav ul li a {
+	color: black;
+	text-align: center;
+	margin: 0px 13px;
+}
+
+.div-member nav ul li a:hover {
+	padding-bottom: 2px;
+	border-bottom: 1px solid black;
+	transition: all 0.5s;
+}
+
+.div-member nav ul li input {
+	border: 1px solid black;
+	width: 100px;
+}
+
+.content {
+	margin-top: 80px;
+}
+
+.products {
+	background-color: white;
+}
+
+.products img {
+	width: 300px;
+	height: 300px;
+}
+
+.LsideMenu {
+	margin-left: 5px;
+	background-color: white;
+	width: 300px;
+	height: 2000px;
+	z-index: -1;
+	position: fixed;
+	border-top: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+}
+
+.LsideMenu div table td {
+	align: center;
+}
+
+.LsideMenu div table td input {
+	align: center;
+	width: 150px;
+}
+
+.LsideMenu div table td a {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+.LsideMenu div label {
+	font-size: 4px;
+	color: gray;
+}
+
+.LsideMenu div b {
+	font-size: 8px;
+	color: gray;
+}
+
+.LsideMenu div a {
+	padding: 10px;
+	width: 100%;
+	text-decoration: none;
+}
+
+.LsideMenu div a:hover {
+	width: 300pxS;
+	text-decoration: none;
+	background-color: lightgray;
+}
+
+#product-list01 {
+	float: right;
+	width: 80%;
+	height: 800px;
+	background-color: lightgray;
+}
+
+#product-list01 h3 {
+	margin: 10px;
+	font-size: 40px;
+}
+
+#product-list01 img {
+	border-radius: 5px;
+	margin: 50px;
+	width: 500px;
+	height: 500px;
+	width: 500px;
+}
+
+#product-list02 {
+	float: right;
+	width: 80%;
+	height: 800px;
+	background-color: lightgray;
+}
+
+#product-list02 h3 {
+	margin: 10px;
+	font-size: 40px;
+}
+
+#product-list02 img {
+	border-radius: 5px;
+	margin: 50px;
+	width: 500px;
+	height: 500px;
+	width: 500px;
+}
+
+#product-list03 {
+	float: right;
+	width: 80%;
+	height: 800px;
+	background-color: lightgray;
+	float: right;
+}
+
+#product-list03 h3 {
+	margin: 10px;
+	font-size: 40px;
+}
+
+#product-list03 img {
+	border-radius: 5px;
+	margin: 50px;
+	width: 500px;
+	height: 500px;
+	width: 500px;
+}
+
+#more a {
+	text-decoration: none;
+	color: white;
+	background-color: gray;
+	padding: 0px 10px;
+}
+
+.footer {
+	float: right;
+	width: 80%;
+	height: 100px;
+	background-color: gray;
+}
+
+#alert {
+	background-color: white;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border: 1px solid red;
+	color: red;
+	border: 1px solid red
+}
+
+#headline {
+	color: black;
+	border-bottom: 2px solid gray;
+	border-top: 2px solid gray;
+	padding: 10px;
+}
