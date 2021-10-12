@@ -5,7 +5,7 @@
 <title>Insert title here</title>
 <style type="text/css">
 *{margin:0; }
-	#wrap{width:1000px; }
+	#wrap{width:1000px; height:500px; }
 	/*글 배경색*/
 	.div01{
 	background-color:#3291cc; text-align:center;
@@ -41,10 +41,16 @@
 	  position:relative;
 	 }
 	 .div04{
-	 width: 1000px; height:80px; background-color:gray; 
-	 text-align:center; 
-	 position:fixed; z-index:3; *margin:0; padding: 20px 0px 0px 0px;
+	 text-align: center;
+	 padding: 30px 0px 30px 0px;
+	 position: fixed; top: 650px; 
+		background-color: #EAEAEA;
+		width: 1000px; height: 50px;
+		 z-index:6;
 	 }
+	 /*바를 상위에 올려놓으면 드래그를 내려도 바가 쫓아오게 된다 
+	 하지만 아래에 두면 드래그를 내렸을대 쫓아오지 않는다 
+	 분명 똑같이 작성한 코드인데 대체 왜 안되는걸까?*/
 	 
 </style>
 </head>
@@ -71,7 +77,7 @@
 	<div class="div04">
 	<nav class="nav01">
 	<a href="">
-	<font size="5">내가 관심있는 모든 이야기 오픈채팅 둘러보기
+	<font size="5"><b>내가 관심있는 모든 이야기 오픈채팅 둘러보기</b>
 	<img id="img03" src="image/kakao03.png">
 	</font>
 	</a>
